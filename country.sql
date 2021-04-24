@@ -8,11 +8,6 @@ CREATE TABLE IF NOT EXISTS `country` (
   `phonecode` int(5) NOT NULL,
   PRIMARY KEY (`id`)
 ) ;
-
---
--- Dumping data for table `country`
---
-
 INSERT INTO `country` (`id`, `iso`, `name`, `nicename`, `iso3`, `numcode`, `phonecode`) VALUES
 (1, 'AF', 'AFGHANISTAN', 'Afghanistan', 'AFG', 4, 93),
 (2, 'AL', 'ALBANIA', 'Albania', 'ALB', 8, 355),
